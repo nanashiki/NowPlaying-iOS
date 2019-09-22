@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0024AA2336B06C00B78D62 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0024A92336B06C00B78D62 /* ActivityView.swift */; };
+		CD0024CC2336BCB100B78D62 /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0024CB2336BCB100B78D62 /* NoticeView.swift */; };
+		CD304B152337A44C00B12364 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD304B142337A44C00B12364 /* ContentViewModel.swift */; };
+		CD4B104B2336C1B1007E9DCF /* PlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B104A2336C1B1007E9DCF /* PlayerControlView.swift */; };
+		CD4B104D2336C3C8007E9DCF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B104C2336C3C8007E9DCF /* BlurView.swift */; };
+		CD6C74662336537400B6225D /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C74652336537400B6225D /* MediaItem.swift */; };
+		CD6C7468233653CA00B6225D /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C7467233653CA00B6225D /* MusicPlayerController.swift */; };
+		CD6C746A233674A800B6225D /* NowPlayingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C7469233674A800B6225D /* NowPlayingItemView.swift */; };
 		CDD45377233642AA001F28F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD45376233642AA001F28F6 /* AppDelegate.swift */; };
 		CDD45379233642AA001F28F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD45378233642AA001F28F6 /* SceneDelegate.swift */; };
 		CDD4537B233642AA001F28F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD4537A233642AA001F28F6 /* ContentView.swift */; };
 		CDD4537D233642AC001F28F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD4537C233642AC001F28F6 /* Assets.xcassets */; };
 		CDD45380233642AC001F28F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD4537F233642AC001F28F6 /* Preview Assets.xcassets */; };
 		CDD45383233642AC001F28F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD45381233642AC001F28F6 /* LaunchScreen.storyboard */; };
+		CDD4538B233644BB001F28F6 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD4538A233644BB001F28F6 /* PermissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0024A92336B06C00B78D62 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		CD0024CB2336BCB100B78D62 /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		CD304B142337A44C00B12364 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CD4B104A2336C1B1007E9DCF /* PlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlView.swift; sourceTree = "<group>"; };
+		CD4B104C2336C3C8007E9DCF /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CD6C74652336537400B6225D /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		CD6C7467233653CA00B6225D /* MusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		CD6C7469233674A800B6225D /* NowPlayingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingItemView.swift; sourceTree = "<group>"; };
 		CDD45373233642AA001F28F6 /* NowPlaying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlaying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD45376233642AA001F28F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDD45378233642AA001F28F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		CDD4537F233642AC001F28F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDD45382233642AC001F28F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDD45384233642AC001F28F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD4538A233644BB001F28F6 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD6C74642336536700B6225D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C74652336537400B6225D /* MediaItem.swift */,
+				CD6C7467233653CA00B6225D /* MusicPlayerController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CDD4536A233642AA001F28F6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +83,11 @@
 		CDD45375233642AA001F28F6 /* NowPlaying */ = {
 			isa = PBXGroup;
 			children = (
+				CD6C74642336536700B6225D /* Model */,
+				CDD4538D23364829001F28F6 /* ViewModels */,
+				CDD4538C23364825001F28F6 /* Views */,
 				CDD45376233642AA001F28F6 /* AppDelegate.swift */,
 				CDD45378233642AA001F28F6 /* SceneDelegate.swift */,
-				CDD4537A233642AA001F28F6 /* ContentView.swift */,
 				CDD4537C233642AC001F28F6 /* Assets.xcassets */,
 				CDD45381233642AC001F28F6 /* LaunchScreen.storyboard */,
 				CDD45384233642AC001F28F6 /* Info.plist */,
@@ -73,6 +102,28 @@
 				CDD4537F233642AC001F28F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDD4538C23364825001F28F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD4537A233642AA001F28F6 /* ContentView.swift */,
+				CDD4538A233644BB001F28F6 /* PermissionView.swift */,
+				CD6C7469233674A800B6225D /* NowPlayingItemView.swift */,
+				CD0024A92336B06C00B78D62 /* ActivityView.swift */,
+				CD0024CB2336BCB100B78D62 /* NoticeView.swift */,
+				CD4B104A2336C1B1007E9DCF /* PlayerControlView.swift */,
+				CD4B104C2336C3C8007E9DCF /* BlurView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDD4538D23364829001F28F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD304B142337A44C00B12364 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD45377233642AA001F28F6 /* AppDelegate.swift in Sources */,
+				CD4B104B2336C1B1007E9DCF /* PlayerControlView.swift in Sources */,
 				CDD45379233642AA001F28F6 /* SceneDelegate.swift in Sources */,
+				CD6C7468233653CA00B6225D /* MusicPlayerController.swift in Sources */,
+				CD4B104D2336C3C8007E9DCF /* BlurView.swift in Sources */,
+				CD0024CC2336BCB100B78D62 /* NoticeView.swift in Sources */,
+				CD6C74662336537400B6225D /* MediaItem.swift in Sources */,
+				CD6C746A233674A800B6225D /* NowPlayingItemView.swift in Sources */,
+				CD304B152337A44C00B12364 /* ContentViewModel.swift in Sources */,
+				CD0024AA2336B06C00B78D62 /* ActivityView.swift in Sources */,
 				CDD4537B233642AA001F28F6 /* ContentView.swift in Sources */,
+				CDD4538B233644BB001F28F6 /* PermissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.NowPlaying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.NowPlaying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
